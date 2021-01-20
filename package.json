@@ -1,0 +1,8 @@
+{
+  "name": "node-meme-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/samyhajar/node-meme-scraper",
+  "author": "Samy Hajar <samy.hajar@gmail.com>",
+  "license": "MIT"
+}
