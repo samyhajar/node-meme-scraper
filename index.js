@@ -2,7 +2,6 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const got = require('got');
 const path = require('path');
-const http = require('http');
 const request = require('request');
 
 const memeUrl = 'https://memegen-link-examples-upleveled.netlify.app/';
