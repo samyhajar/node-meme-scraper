@@ -23,8 +23,8 @@ got(memeUrl)
         method: 'get',
         url: storeElem[index],
         responseType: 'stream',
-      }).then(function (response) {
-        response.data.pipe(fs.createWriteStream(`./memes/image${index}.jpg`));
+      }).then(function (responseT) {
+        responseT.data.pipe(fs.createWriteStream(`./memes/image${index}.jpg`));
       });
     }
   })
