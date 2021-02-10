@@ -10,7 +10,6 @@ const storeElem = [];
 got(memeUrl)
   .then((response) => {
     const $ = cheerio.load(response.body);
-
     $('img').each((i, elem) => {
       if (i <= 9) {
         storeElem.push(elem.attribs.src);
@@ -35,7 +34,7 @@ got(memeUrl)
 
 fs.mkdir(path.join(__dirname, 'memes'), (err) => {
   if (err) {
-    return console.log('This directory already exists!!');
+    return console.log('Your mum is bitch');
   } else {
     console.log('Directory created successfully!');
   }
