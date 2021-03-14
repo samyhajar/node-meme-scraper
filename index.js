@@ -34,7 +34,7 @@ got(memeUrl)
 
 fs.mkdir(path.join(__dirname, 'memes'), (err) => {
   if (err) {
-    return console.log('Your mum is bitch');
+    return console.log('Hello');
   } else {
     console.log('Directory created successfully!');
   }
